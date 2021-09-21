@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color:#34D399
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    
+}
+
+textarea {
+    height: 10vh;
+    width: 600px;
+    display: block;
+    
+    padding: 2% 2%;
+    text-align: center;
+}
+
+.nav-container {
+    background-color: var(--primary-color);
+    padding: 1% 1%;
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    margin:1% 1%;
+}
+
+.section {
+    display: block;
+    text-align: center;
+}
+
+main {
+    width:600px;
+    text-align: center;
+}

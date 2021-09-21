@@ -10,10 +10,10 @@ body {
 } 
 
 textarea {
-    height:  10vh;
-    
+    height:  12vh;
+    text-align: center;
     width: 400px;
-    
+    display: block;
     margin: 0rem 0rem;
     padding: 2% 2%;
 }
@@ -31,7 +31,7 @@ textarea {
 
 
 main {
-    width:450px;
+    width:400px;
     /* text-align: center; */
     margin:auto;
     padding: 1rem 0rem;

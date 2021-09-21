@@ -13,8 +13,9 @@ textarea {
     height:  12vh;
     text-align: center;
     width: 400px;
+    max-width: 100%;
     display: block;
-    margin: 0rem 0rem;
+    margin: auto;
     padding: 2% 2%;
 }
 
@@ -53,6 +54,8 @@ main {
     height: 10vh;
     width : 400px;
     padding : 2% 2%;
+    max-width: 100%;
+    margin: auto;
 }
 
 .footer-para {

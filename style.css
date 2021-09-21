@@ -6,16 +6,16 @@
 
 body {
     font-family: 'Open Sans', sans-serif; 
-    
-}
+    margin: 0px;
+} 
 
 textarea {
-    height: 10vh;
-    width: 600px;
-    display: block;
+    height:  10vh;
     
+    width: 400px;
+    display: block;
+    margin: auto;
     padding: 2% 2%;
-    text-align: center;
 }
 
 .nav-container {
@@ -24,6 +24,8 @@ textarea {
     text-align: center;
     border-bottom-left-radius: 1rem;
     margin:1% 1%;
+    display: block;
+    width : 100%;
 }
 
 .section {
@@ -32,6 +34,30 @@ textarea {
 }
 
 main {
-    width:600px;
-    text-align: center;
+    width:400px;
+    /* text-align: center; */
+    margin: auto;
+    
+    
+}
+
+#btn-translate {
+    background-color: var(--primary-color);
+    border: 1px solid white;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+    font-weight: bold;
+}
+
+#text-output {
+    border: 1px solid black;
+    height: 10vh;
+    width : 400px;
+    padding : 2% 2%;
+}
+
+.footer-para {
+    margin: 0% 4%;
+    display: block;
 }
